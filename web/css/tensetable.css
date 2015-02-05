@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: 13px Arial, Helvetica, Garuda, sans-serif;
+    /*font-size: small;
+    *font: x-small;*/
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, em, strong, pre, code {
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+}
+
+table {
+    font-size: inherit;
+    font: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+p {
+    margin: 1em 0;
+}
+
+th {
+    background-color: #D3D3D3;
+    border-color: #DCDCDC;
+}
+
+#my-table tbody th {
+    /*font-family : "Courier New", monospace;*/
+    font-size: 12px;
+    font-weight: bold;
+}
+
+td {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-stretch: extra-expanded;
+    padding: 5px 5px;
+    margin: 0;
+    background-color: #FFFAFA;
+    text-align: left !important;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+table {
+    background-color: white;
+    border-color: #DCDCDC;
+}
+
+#my-table tbody > tr:first-child > td {
+
+}
+
+#my-table tbody > tr > td:nth-child(1) {
+    color: black;
+    /*font-weight : bold;*/
+    border-color: #DCDCDC;
+}
+
+#my-table tbody > tr > td:nth-child(2) {
+    border-color: #DCDCDC;
+}
+
+#my-table tbody > tr > td:nth-child(3) {
+    color: #A042C9;
+    font-weight: bold;
+    border-color: #DCDCDC;
+}
+
+.col1 {
+    width: 20px;
+}
+
+.col2 {
+    width: 500px;
+}
+
+.col3 {
+    width: 500px;
+}
+
+.col4 {
+    width: 200px;
+}
+
+table thead {
+    background: white
+}
+
+.t-red {
+    color: red;
+}
+
+.t-rem {
+    font-size: 88%;
+    color: gray;
+    font-weight: bold;
+}
+
+.t-emp {
+    font-weight: bold;
+    /*text-decoration : underline;
+    font-style : italic;
+    text-transform : lowercase;
+    color : darkgray; */
+}
+
+.t-mark {
+    font-weight: bold;
+    color: #A042C9;
+}
+
